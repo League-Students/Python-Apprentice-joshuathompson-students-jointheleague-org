@@ -6,7 +6,7 @@ but you know you can use a loop to make the program simpler.
 """
 
 import turtle                           # Tell Python we want to work with the turtle
-turtle.setup(1000,1000,1000,1000)               # Set the size of the window
+turtle.setup(800,800,0,0)               # Set the size of the window
 
 tina = turtle.Turtle()                  # Create a turtle named tina
 
