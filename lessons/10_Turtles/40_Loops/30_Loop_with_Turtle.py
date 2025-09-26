@@ -8,10 +8,12 @@ write a new program that uses a loop to draw a pentagon.
 
 ... # Your code here
 import turtle
-turtle.setup(1000,1000,0,0)
+turtle.setup(500,500,0,0)
 tina = turtle.Turtle()
 
 
 for i in range(8 ):
     tina.forward(50)
     tina.left(51)
+
+turtle.exitonclick()   
